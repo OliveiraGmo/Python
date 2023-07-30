@@ -14,7 +14,7 @@ setup(
     description="Passo a passo passado por Karina Kato.",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/OliveiraGmo/Python",
+    url="https://github.com/OliveiraGmo/Python/tree/main/Criacao_de_pacotes",
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8',
