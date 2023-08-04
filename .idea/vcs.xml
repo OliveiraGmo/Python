@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Trilha-Python-Dio" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Trilha-Python-Dio/Rest_Api_Flask" vcs="Git" />
   </component>
 </project>
