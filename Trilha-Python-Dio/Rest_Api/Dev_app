@@ -9,12 +9,12 @@ api = Api(app)
 desenvolvedores = [
     {
         'id':'0',
-        'nome':'Rafael',
+        'nome':'Gabriel',
         'habilidades':['Python', 'Flask']
     },
     {
         'id':1,
-        'nome':'Galleani',
+        'nome':'Monteiro',
         'habilidades':['Python', 'Django']
     }
 ]
