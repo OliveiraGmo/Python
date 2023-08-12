@@ -1,11 +1,11 @@
 from sqlalchemy import create_engine, Column, Integer, String, ForeignKey
 from sqlalchemy.orm import scoped_session, sessionmaker, relationship
-import sqlalchemy
+from sqlalchemy.ext.declarative import declarative_base
 
-engine = create_engine('sqlite:///atividades.db')
+engine = create_engine('sqlite:///atividades.db', convert_unicode=True)
 db_session = scoped_session(sessionmaker(autocommit=False,
                                          bind=engine))
-Base = sqlalchemy.orm.declarative_base()
+Base = declarative_base()
 Base.query = db_session.query_property()
 
 class Pessoas(Base):
